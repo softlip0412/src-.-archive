@@ -1,0 +1,55 @@
+.banner-container {
+	width: 100%;
+	position: relative;
+}
+
+.banner {
+	display: none;
+}
+
+.banner1 {
+	display: block;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.prev-button, .next-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #f2f2f2;
+	color: black;
+	font-size: 24px;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.prev-button {
+	left: 0;
+}
+
+.next-button {
+	right: 0;
+}
+
+.dot-container {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.dot {
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	background-color: #bbb;
+	margin: 0 8px;
+	cursor: pointer;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
